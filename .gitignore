@@ -1,0 +1,25 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python backend
+backend/.venv/
+backend/__pycache__/
+backend/**/*.pyc
+backend/.env
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# Logs / temp
+*.log
+backend/*_run_out.log
+backend/*_run_err.log
+backend/uv_reload*.log
+frontend/*_run_out.log
+frontend/*_run_err.log
+
