@@ -7,7 +7,9 @@ Thumbs.db
 # Python backend
 backend/.venv/
 backend/__pycache__/
+backend/**/__pycache__/
 backend/**/*.pyc
+backend/**/*.pyc*
 backend/.env
 
 # Frontend
@@ -22,4 +24,3 @@ backend/*_run_err.log
 backend/uv_reload*.log
 frontend/*_run_out.log
 frontend/*_run_err.log
-
